@@ -1,39 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>方丈阁</title>
-  
-  <subtitle>战战兢兢如临深渊如履薄冰</subtitle>
+  <title>Litten的博客</title>
+  <icon>https://www.gravatar.com/avatar/1b1060c5a2544f4ae03788a00f7c2c93</icon>
+  <subtitle>胆小认生，不易相处</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://fzysdsj.github.io/"/>
-  <updated>2017-09-14T01:58:56.046Z</updated>
-  <id>https://fzysdsj.github.io/</id>
+  <link href="//litten.me/"/>
+  <updated>2017-05-01T04:48:38.545Z</updated>
+  <id>//litten.me/</id>
   
   <author>
-    <name>fzysdsj</name>
-    
+    <name>Litten</name>
+    <email>litten225@qq.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://fzysdsj.github.io/2017/09/14/hello-world/"/>
-    <id>https://fzysdsj.github.io/2017/09/14/hello-world/</id>
-    <published>2017-09-14T01:58:56.046Z</published>
-    <updated>2017-09-14T01:58:56.046Z</updated>
+    <title>黄粱梦将尽，回眸已六载</title>
+    <link href="//litten.me/2017/04/30/%E9%BB%84%E7%B2%B1%E6%A2%A6%E5%B0%86%E5%B0%BD%EF%BC%8C%E5%9B%9E%E7%9C%B8%E5%B7%B2%E5%85%AD%E8%BD%BD/"/>
+    <id>//litten.me/2017/04/30/黄粱梦将尽，回眸已六载/</id>
+    <published>2017-04-30T00:20:13.000Z</published>
+    <updated>2017-05-01T04:48:38.545Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>吾何尝不知又会是如此结局，然而这数载纠结，终使我不愿轻易放下。为那一人一念，<br>吾宁愿一人守着这执念，也不准你冠冕堂皇地再走进我的世界里。</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;blockquote&gt;
+&lt;p&gt;吾何尝不知又会是如此结局，然而这数载纠结，终使我不愿轻易放下。为那一人一念，&lt;br&gt;吾宁愿一人守着这执念，也不准你冠冕堂皇地再走进我的世界里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
       
     
     </summary>
     
+    
+      <category term="梦醒 无声" scheme="//litten.me/tags/%E6%A2%A6%E9%86%92-%E6%97%A0%E5%A3%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>长河日落，春星月转，吾已非少年</title>
+    <link href="//litten.me/2017/04/02/%E9%95%BF%E6%B2%B3%E6%97%A5%E8%90%BD%EF%BC%8C%E6%98%A5%E6%98%9F%E6%9C%88%E8%BD%AC%EF%BC%8C%E5%90%BE%E5%B7%B2%E9%9D%9E%E5%B0%91%E5%B9%B4/"/>
+    <id>//litten.me/2017/04/02/长河日落，春星月转，吾已非少年/</id>
+    <published>2017-04-02T12:17:47.000Z</published>
+    <updated>2017-04-03T14:02:32.903Z</updated>
+    
+    <content type="html"><![CDATA[<p>#想写这篇文章足有三个日夜了，只是每到深夜，诸事完毕，正欲大书特书之时，总有一些倦意与无奈接踵而来，我总是安心妥协地爬上床去，闭上眼，望着天，一言不语，一语无言。</p><p>#“少年”曾是多么美好的代名词，我多少次打着青春的幌子，尽情地放纵，任性，全然不顾父母家人的感受，向往着李白柳永式浪漫，”举杯对庸人，庸人皆醉我。”、”睥睨笑苍天，高歌鹿鸣宴。”于是，我尽以少年自在为由，”白日照高床，披月作诗章。”然而，不经意间，长河日落，春星日转，我早不是少年了。</p><p>#古人云：“十二束发，二十加冠”，实在不无道理。我辈算得“六岁束发，二十不冠。”正因为读书的日子太长久，习惯了被家里人视作第一紧要的，反而忘却了二十岁的责任与担当。</p><p>#我自然是晓得了，不然亦不会再此长篇大论。只是晓得还是其次，如何去做方是根本。我如今已尽知父辈祖辈艰险，亦不会自私地为着自己所谓的理想而坐而论道。我亦晓得</p><p>十年前的今天，我应是躺在老家的大床上，闻着满屋的槐花香，盯着院子里的鬼拍手和满院繁星，假装瑟瑟发抖。那时的我，脑海中全无对当时的留恋，我幻想着十年后，自己坐在大学的教室里，不用再被人逼着做作业，不用再每天准时去上学，不用再听父母的唠叨。而十年后的今天，我坐在大学的宿舍里，脑海中也全无对现在的留恋，我回想着十年前，自己躺在老家的大床上，闻着槐花香，长舒一口气：“孩子真好。”</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#想写这篇文章足有三个日夜了，只是每到深夜，诸事完毕，正欲大书特书之时，总有一些倦意与无奈接踵而来，我总是安心妥协地爬上床去，闭上眼，望着天，一言不语，一语无言。&lt;/p&gt;
+&lt;p&gt;#“少年”曾是多么美好的代名词，我多少次打着青春的幌子，尽情地放纵，任性，全然不顾父母家人的感受
+      
+    
+    </summary>
+    
+    
+      <category term="方丈式鸡汤 真心话 很有教育意义" scheme="//litten.me/tags/%E6%96%B9%E4%B8%88%E5%BC%8F%E9%B8%A1%E6%B1%A4-%E7%9C%9F%E5%BF%83%E8%AF%9D-%E5%BE%88%E6%9C%89%E6%95%99%E8%82%B2%E6%84%8F%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>....</title>
+    <link href="//litten.me/2017/03/30/%E4%B8%80%E9%A2%97%E8%84%86%E5%BC%B1%E7%9A%84%E5%BF%83%E7%A2%8E%E4%BA%86/"/>
+    <id>//litten.me/2017/03/30/一颗脆弱的心碎了/</id>
+    <published>2017-03-30T13:43:42.000Z</published>
+    <updated>2017-04-03T11:50:40.912Z</updated>
+    
+    <content type="html"><![CDATA[<p>##说在前面的话<br>“@#%%…………￥￥&amp;**”<br>我就一个前端，你却直接给我四道算法题？<br>不信抬头看，苍天饶过谁？<br><a id="more"></a><br>好了，内心纠结的不知如何言语。<br>现在，我已经忘了头条的四道题到底是啥样的了，我只记得，最后一题，我绝对是对的，可它怎么也给我出不来，还说什么时间超过限制了。呵呵。贫僧不干了，明天还有阿里笔试，我要投奔阿里了。<br>不过，以后要好好打基础了。我再也不逃陈娜老师的操作系统了。<br>以上，敬安</p><pre><code>——————方丈遗少杜三贱，丁酉三月初三，夜。</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;##说在前面的话&lt;br&gt;“@#%%…………￥￥&amp;amp;**”&lt;br&gt;我就一个前端，你却直接给我四道算法题？&lt;br&gt;不信抬头看，苍天饶过谁？&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="头条笔试 坑爹 方丈遗少" scheme="//litten.me/tags/%E5%A4%B4%E6%9D%A1%E7%AC%94%E8%AF%95-%E5%9D%91%E7%88%B9-%E6%96%B9%E4%B8%88%E9%81%97%E5%B0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于爱情</title>
+    <link href="//litten.me/2017/03/28/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85/"/>
+    <id>//litten.me/2017/03/28/关于爱情/</id>
+    <published>2017-03-28T13:53:03.000Z</published>
+    <updated>2017-03-28T14:07:37.808Z</updated>
+    
+    <content type="html"><![CDATA[<p>吾之为文，唯爱者不轻言。<br><a id="more"></a><br>我用足足七个春秋，只是愚蠢地证明了一件事：“往昔如烟，不可追也。”这篇文章本该是我一个星期前要写下的，因为做东西实在太忙，迟迟不愿下笔。今日却也终于落了笔，也算遂了自己的愿。<br>我恶极了柳下惠们的清高，也恨透了候君集们的懦弱，中国的书生自古以来对于爱情总是有这两种通病：“清以口舌”、“污以淫欲”。用现在的话来说，就是“撸前淫如狗，撸后洁如圣。”<br>虚伪是我们永远逃不掉的话题。爱时，我们善于用自己的才华描绘画卷一般的美好未来，搂着心爱的美人仿效着春花雪月下唐皇杨妃似的浪漫，说不尽的海誓山盟，道不清的情真意切。<br>那么我们果然是懂爱情的吗？我绝不这么认为。即便如今我已等了她六个春秋，我也绝不认为这百分百算得爱情，不过是文人们必要给自己的人生阅历强加上些浪漫色彩的荒唐罢了。<br>  我恨透了文人的虚伪，却也在这文人之列。<br>  马蛋，未完待续。我去洗个屌，不是，洗个脚。<br>  以上，敬安。<br>             ————方丈遗少杜三贱，丁酉三月初一，夜。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;吾之为文，唯爱者不轻言。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="心灵鸡汤 闲的蛋疼" scheme="//litten.me/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4-%E9%97%B2%E7%9A%84%E8%9B%8B%E7%96%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node建站第一篇完结</title>
+    <link href="//litten.me/2017/03/28/node%E5%BB%BA%E7%AB%99%E7%AC%AC%E4%B8%80%E7%AF%87%E5%AE%8C%E7%BB%93/"/>
+    <id>//litten.me/2017/03/28/node建站第一篇完结/</id>
+    <published>2017-03-28T08:51:40.000Z</published>
+    <updated>2017-03-28T09:30:13.134Z</updated>
+    
+    <content type="html"><![CDATA[<p>“苍生本无念，自有人间来。我为阁中事，做此方丈记。”<br>装个逼……<br><a id="more"></a></p><p>##总结</p><p>##完成的任务<br>1.注册，登录模块(手写的，很自豪。)<br>2.管理员、普通用户、游客权限分配模块。<br>3.MVC分离<br>4.人物主页模块<br>5.导航栏中的“仙剑廿载”、“仙剑人物”、“方丈始末”模块<br>6.自适应各种屏幕(你要放大缩小我可能就GG了)。<br>7.兼容IE678（虽然没有试验）<br>8.错误页面404跳转回主页。(很自豪)<br>9.权限不够页面404跳转回主页。<br>10.用户信息添加、修改、删除。<br>11.人物信息添加、修改(做了一半)、删除。<br>12.分类信息添加、修改、删除。<br>13.人物详情页，查看，留言。<br>14.搜索人物模块。<br>15.特效删了又加又删，现在没了。<br>16.开场主页模块。<br>17.git管理项目，已放到github上。(不用担心明天装MAC了)<br>18.逃了N节课，被老师们点了个大满贯。很自豪。</p><p>##还未完成的模块<br>1.用户详细信息添加修改模块<br>2.方丈遗少个人信息模块<br>3.注册表单ajax验证用户名是否已存在。<br>4.导航栏的“仙剑娱乐”、“仙剑经历”和“檀越留言”模块<br>5.VIP模块<br>6.支付模块，这个感觉有点大，安全性方面暂时不知道要怎么保障，银行的API也不知怎么接。<br>7.pdf阅读模块<br>8.小说收费模块（这个必须做，最重要！！！）<br>9.开始上课<br>10.明天找导师说明学期都开学一个多月了，没有上过他一节课的原因。</p><p>##接下来要做的事<br>捡一下JS和JQ，学一下H5和C3，再熟悉下ng和ic，然后做一做移动端，最后半个月以后再来把这个项目做完。</p><p>##体会<br>1.node挺好玩的。<br>2.我不准备跨考南开历史系了，也不考研了。准备转回IT界，就做JavaScript栈，毕竟一见钟情嘛。<br>3.上课真没啥卵用，我又不打算往深了学，我以后可是要做甲方的男人。<br>4.逃课的感觉真爽，找不到工作也挺爽的。我周围同学全是考研的，不考研的一点紧迫感也没有，连老师们都没有，我告诉他们我在找工作，他们说：“现在就找工作啊？”那么，腾讯，阿里的2018级暑期实习生是个卵，你告我声，麻蛋，心塞。<br>5.总的来说，就这些了。这一个月来鼓捣这些也是挺有趣的，最后感谢慕课恶scoot大大，还是很牛的，教程跟我的想法一拍即合。</p><p>以上，敬安。<br>                   ————————方丈遗少杜三贱，丁酉三月初一。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;“苍生本无念，自有人间来。我为阁中事，做此方丈记。”&lt;br&gt;装个逼……&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node+express搭站阶段五</title>
+    <link href="//litten.me/2017/03/26/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%BA%94/"/>
+    <id>//litten.me/2017/03/26/node-express搭站阶段五/</id>
+    <published>2017-03-26T14:21:41.000Z</published>
+    <updated>2017-03-28T09:14:03.502Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="images/bdyz.PNG" alt="&quot;手写的表单验证，虽然还没写完&quot;"><br>以前，我总不以为然的一句话就是”大道至简”，听起来像极了不会做的人自欺欺人的话，但这两天自己狠心砍掉自己废了老半天劲加上去的特效，我似乎也算明白了些，直入主题，有时候比卖弄玄虚来得更高明些。<br><a id="more"></a></p><p>总结一下这“忙碌的一周”我到底干了些什么事</p><p>##解决的问题<br>1.主页不能自适应，只有在1366*768分辨率下可以完美显示。（解决方案：几乎砍掉所有的特效，心疼一分钟）<br>2.用户名为空也能注册登录的bug<br>3.IE678不兼容问题(解决方案：采用折中方法)<br>4.搜索框与导航栏在页面大小改变时会出现不在一排的情况。<br>5.方丈遗少杜三贱的品牌效应没有做好。</p><p>##完成的模块<br>1.注册模块(尚缺少ajax回调验证用户名是否已存在)<br>2.登录模块</p><p>##尚需完成的模块<br>1.错误提示模块<br>2.论坛模块<br>3.娱乐模块<br>4.用户完善信息模块<br>5.网站创始人模块</p><p>##体会<br>感觉自己一周贼忙碌，写下来却只是做了注册登录，难过。其实这一周前五天大部分时间是在给网站加特效，改特效，自以为特效牛逼就是网站牛逼，周五晚上突然一实验，响应式下这些特效全部完蛋，所以，贫僧忍痛割爱，全部砍掉，心内痛苦，非一言一语所能言明也。<br>不过，用户体验并不一定要看到多多的特效，特效是给傻子们看的，真正的智者会从简单中看复杂。（你麻痹加不了响应式的特效，就在这里胡吹。）<br>好了，就这样。<br>以上，敬安<br>               ——————方丈遗少杜三贱，丁酉二月三十，晨。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;images/bdyz.PNG&quot; alt=&quot;&amp;quot;手写的表单验证，虽然还没写完&amp;quot;&quot;&gt;&lt;br&gt;以前，我总不以为然的一句话就是”大道至简”，听起来像极了不会做的人自欺欺人的话，但这两天自己狠心砍掉自己废了老半天劲加上去的特效，我似乎也算明白了些，直入主题，有时候比卖弄玄虚来得更高明些。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node 建站阶段四</title>
+    <link href="//litten.me/2017/03/20/node-%E5%BB%BA%E7%AB%99%E9%98%B6%E6%AE%B5%E5%9B%9B/"/>
+    <id>//litten.me/2017/03/20/node-建站阶段四/</id>
+    <published>2017-03-20T14:15:36.000Z</published>
+    <updated>2017-03-20T14:20:28.452Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="images/jiemianyouhua.PNG" alt="&quot;界面优化完成，还是很丑，致敬仙剑&quot;"></p><blockquote><p>这几天太忙了，随便写了些。抱歉。</p></blockquote><a id="more"></a><p>##解决的问题<br>1.用户列表不能查看修改的问题（其实没解决）<br>2.人物分类列表不能查看修改的问题（其实没解决）<br>3.响应式问题（其实也没解决）<br>4.仙剑廿载模块完成<br>5.界面优化完成<br>6.导航栏完成<br>7.IE真够了</p><p>##产生的新问题<br>1.导航栏IE不兼容，直接消失。麻蛋。<br>2.css样式权重混乱。<br>3.网站分辨率过高，调不回来啊。<br>4.刷新页面闪屏，用户体验不好。<br>5.用户评论头像未匹配<br>6.safari兼容问题</p><p>##尚未做的工作<br>1.导航栏功能扩展:<br>a.娱乐模块<br>b.留言模块<br>c.论坛模块<br>d.作者模块<br>2.表单验证<br>3.密码解密<br>4.兼容IE<br>5.不加特效了，真的。<br>6.权限分配</p><p>#bug<br>1.用户名为空也能注册登录<br>2.删除用户数据后用此用户评论过的人物界面不能再进入。<br>以上，敬安。<br>       __方丈遗少杜三贱，丁酉春，二月廿二，晚。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;images/jiemianyouhua.PNG&quot; alt=&quot;&amp;quot;界面优化完成，还是很丑，致敬仙剑&amp;quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这几天太忙了，随便写了些。抱歉。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node+express搭站阶段三</title>
+    <link href="//litten.me/2017/03/15/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%B8%89/"/>
+    <id>//litten.me/2017/03/15/node-express搭站阶段三/</id>
+    <published>2017-03-15T12:02:01.000Z</published>
+    <updated>2017-03-15T13:20:52.265Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="images/cjwz.PNG" alt="&quot;我真的爱上Node了&quot;"></p><blockquote><p>忍不住爆句粗：”我他妈和Node真是相见恨晚。”<br>好了，擦擦嘴，开始总结。</p></blockquote><a id="more"></a><p>又经过两天的努力，逃了几节课，浪费了两个午休，贫僧终于度过难关，草就网站了（就是文章开始的渣图…..）接下来就要开始大规模创造了。先总结下今天干的活。</p><p>##解决的问题<br>1.修复注册模块。<br>2.修复登录模块。<br>3.评论模块测试完成。<br>4.界面初级优化完成。<br>5.图片导入路径问题解决。<br>6.样式表路径问题解决。</p><p>##完成的新模块<br>a.搜索模块完成<br>b.分页模块完成<br>c.访客统计完成<br>d.用户权限早已完成(暂时不用，进后台页太麻烦，上线的话再加。)</p><p>##还未完成的模块<br>A.用户信息模块更改和查询未完成。<br>B.人物分类模块更改和查询未完成。<br>C.导航模块未完成。<br>D.开场主页动画模块未完成。<br>E.数据安全测试模块未完成(都没打算做……)</p><p>##尚且存在的问题<br> 壹.移动端PC端总有一端不搭。<br> 贰.百度图片API接不上(他那信息太low了些)<br> 叁.媒体链接未考虑。<br> 肆.表单验证优化。<br> 伍.界面优化。<br> 陆.评论模块人物头像不搭。<br> 柒.评论以后提交是同步刷新页面，用户体验很差。（可贫僧我不会异步啊）</p><p> ##新的想法<br> 方.加入发帖模块<br> 丈.页面加特效<br> 遗.进入主页前加一个H5大动画<br> 少.试试sea.js<br> 杜.试试CSS3<br> 三.试着将grunt改做gulp<br> 贱、发布到云上。<br> 括弧：以上这些，我还都不知道怎么做……<br>暂时只想到这些，昨日遇烦心事，未曾记录，今日补上。学生时代，能自有支配时间，是何其美妙之事。<br>另：吾友玉航三日后专接本，吾在此祝福之。<br>以上，敬安。<br>         ——————方丈遗少杜三贱，丁酉春，二月十八，夜。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;images/cjwz.PNG&quot; alt=&quot;&amp;quot;我真的爱上Node了&amp;quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;忍不住爆句粗：”我他妈和Node真是相见恨晚。”&lt;br&gt;好了，擦擦嘴，开始总结。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node+express搭站阶段二</title>
+    <link href="//litten.me/2017/03/13/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%BA%8C/"/>
+    <id>//litten.me/2017/03/13/node-express搭站阶段二/</id>
+    <published>2017-03-13T12:57:53.000Z</published>
+    <updated>2017-03-13T13:21:03.880Z</updated>
+    
+    <content type="html"><![CDATA[<p> ##直奔主题<br> 今日无废话，node+express搭站第二弹。<br> 上午满课，只有下午的时间可以用来搭站，不过问题解决得都很顺利，明天要的项目需求分析书也已草就，贫僧就腾出时间来总结一下今日的项目进展。（一个人做，总有些好处的……）<br><a id="more"></a></p><p> ##解决的问题<br> 1.解决session数据返不到数据库的问题（其实是表单提交的时候忘记了一个数据赋值。）<br> 2.解决登录以后窗口不弹出，user数据为undefined的问题。（和上一个如出一辙）<br> 3.修复输入为空依然可以登录的bug。（同上）<br> 4.解决数据库删除不了数据的问题。</p><p> ##尚且存在的问题：<br> a.项目路径做了一次大修改后，原来的注册表单出现不知名bug，待修复…….<br> b.界面太丑，待优化……</p><p> ##今日新完成的模块：<br> A.评论模块(未测试)</p><p> ##接下来要做的工作：<br> 壹、评论模块测试<br> 贰、人物分类模块<br> 叁、数据录入优化<br> 肆、表单验证优化<br> 伍、界面优化<br> 陆、搜索功能<br> 柒、分页功能</p><p> ##写完博客要做的事：<br> 方、洗个脚。<br> 丈、来把联盟。<br> 遗、撸会儿铁。<br> 少、读一首柳永的词。<br> 杜、低吟一句“老衲睡也”。<br> 三、真个似：两袖清风总常在，青衫不作紫袍羡。<br> 贱、见笑。<br> 以上，敬安。<br>              ——————方丈遗少杜三贱，丁酉春，二月十六，夜。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; ##直奔主题&lt;br&gt; 今日无废话，node+express搭站第二弹。&lt;br&gt; 上午满课，只有下午的时间可以用来搭站，不过问题解决得都很顺利，明天要的项目需求分析书也已草就，贫僧就腾出时间来总结一下今日的项目进展。（一个人做，总有些好处的……）&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node+express搭站阶段一</title>
+    <link href="//litten.me/2017/03/12/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%B8%80/"/>
+    <id>//litten.me/2017/03/12/node-express搭站阶段一/</id>
+    <published>2017-03-12T13:35:53.000Z</published>
+    <updated>2017-03-12T14:15:38.094Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="images/changlan.jpg" alt="&quot;这图其实和文章有关&quot;"><br>杏云燕雨兰初上，<br>寂寞妍姿开雾崖。<br>明月曾经川岸去，<br>怎知碎影竟朱砂。<br><a id="more"></a></p><p>##说些废话<br>这首诗贫僧其实是不爱的，拼凑意境者，吾辈向来不齿。但爱极了诗的主人，也就爱屋及乌的爱极了这诗。也正因为爱极了诗的主人，竟也不顾一切地要为她做些什么，也正好这学期要每人做一个软件。贫僧思来想去，就做下了用node+express+MongoDB（贫僧一直相信NOSQL的潜力）搭建一个仙剑美人录的网站，将仙剑系列诸位美人皆揽入怀。（看到这里，诸位檀越当晓得贫僧是仙粉了。）思路有了以后，图书馆翻阅一整天，竟奇怪并没有多少关于node的书，仅有的几本也只是入门，对于建站可谓毫无用处。贫僧以为无路可走，正想着放弃这个愚蠢的想法,幸运的是，偶然间在慕课网上看到了scott大神的node建站教程，与我的想法是不谋而合。贫僧当时拍手，就差敲桌子指着老师说：”我要回家”。<br>   后来的事是，我还真的逃课回家了，然后，老师们也真不客气，都给我点名了。（你妹）</p><p> ##步入正题<br> scoot建站的node视频好像是14年的了，对于现在的我们来说，版本是有些老了。经过三天学习，虽然还没学完，但也差不多了。（真的是怒怼命令行三天，早八点到晚一点）<br> A.自己的体会：<br> 1.首先这门课涉及了很多知识：<br> a.jade<br> b.node和npm<br> c.express<br> d.grunt<br> e.MoogoDB(这是吸引我的主要原因)<br> f.bootstrap<br> ……..<br> 2.私以为node建站，命令行操作非常适合装逼人群。<br> 3.bootstrap自带模板简直爽的不行。<br> 4.jade格式不要太风骚。<br> 5.MoogoDB无表操作绝对适合强迫症患者。<br> 6.程序出现错误，不要急着改代码，仔细看错误信息，大部分是因为粗心问题，剩下的基本是插件版本问题。<br> 7.吐槽一下express升级之后的版本，是真的难受。不过，理解万岁。我忘了，我至今的node还是5.7版的，以至于上一篇文章说的“hexo-generator-json-content”始终安不上…….（痛心脸）<br>B.目前完成的任务：<br> 1.首页，登录页，注册页，用户列表页，信息录入页，信息管理页，详情页基本完成。<br> 2.实现了注册登录，添加删除用户，修改用户信息，修改美人信息。<br> 3.初步完成MVC架构。<br> C.尚且存在的问题：<br> 1.session回调用户信息后，返回不了给数据库。<br> 2.登录成功后不跳转。<br> 3.用户权限实现未果。<br> 4.用户名输入为空也能登录的bug尚未修复。<br> 5.数据库数据删除未果。<br> D.接下来要完成的模块及优化<br> a.实现评论模块。<br> b.实现美人分类模块。<br> c.实现注册模块优化<br> d.实现登录模块优化<br> e.实现多人同时登录<br> f.实现添加用户权限<br> g.尝试gulp代替grunt。<br> h.实现今晚十一点睡。<br>  以上，敬安。<br>       ——————方丈遗少杜三贱，丁酉二月一十五，夜。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;images/changlan.jpg&quot; alt=&quot;&amp;quot;这图其实和文章有关&amp;quot;&quot;&gt;&lt;br&gt;杏云燕雨兰初上，&lt;br&gt;寂寞妍姿开雾崖。&lt;br&gt;明月曾经川岸去，&lt;br&gt;怎知碎影竟朱砂。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>总结这几天用Hexo搭建博客遇到的各种问题</title>
+    <link href="//litten.me/2017/03/08/%E6%80%BB%E7%BB%93/"/>
+    <id>//litten.me/2017/03/08/总结/</id>
+    <published>2017-03-08T06:10:19.000Z</published>
+    <updated>2017-03-08T07:43:31.922Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/xiaohudie.PNG" alt="&quot;最大的悲伤&quot;"></p><blockquote><p>大学里有一句话是百分百正确的：”去<em>*的校园网！”<br>贫僧新学期里，继续延续顶着干原则，这次变本加厉，连课都不去上了。(被院长点住一次，被各种老师各种点，还是怂了)花了几日时间，趟过无数前辈同胞们走过的坑，终于把博客搭起来了。(大三才搭起来，你好意思说？)<br>     贫僧就将这几日搭建过程中遇到的问题总结一下，并不指望能帮到其他兄台。<br>     好了，正文开始。<br>     /</em>此处省略五万字*/<br><a id="more"></a></p></blockquote><pre><code>###糟糕的网络这是我遇到的最大的坑了。不管是装npm插件还是hexo插件，我大铁大校园网一视同仁，就是墙你。贫僧没办法，开了一个星期热点，QQ都不敢玩了。;###node.js安装问题node.js有两个版本分支，分别更新到了V5.7.0和4.3.1，根据网上用hexo搭建博客的教程来看，大家都墙裂推荐node.js直接安装的方法。缺点就是只能使用一个版本(毕竟傻瓜式安装，不用配置环境变量).不过，贫僧更倾向于使用npm进行安装，这样做的好处是可以随时切换node版本，具体安装步骤请自行百度。(贫僧真的很懒......)###hexo-generator-json-content插件不晓得为什么，我按照官方说明，执行&quot;npm i -S hexo-generator-json-content&quot;以后，就出现了两个警告，贫僧不以为然，继续。hexo d 以后又出现这货，瞬间崩溃：  ERROR Plugin load failed: hexo-generator-json-content  至今git也还告诉我hexo-generator-json-content插件加载失败，可能是因为系统兼容性问题，想着找个时间在Linux下实验一下。  其它错误，网上都以长篇大论许多，贫僧不再一一赘述。附：本博客使用的是yilia主题。以上，敬安。           ————————方丈遗少杜三贱，丁酉，二月十一，午。</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/xiaohudie.PNG&quot; alt=&quot;&amp;quot;最大的悲伤&amp;quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大学里有一句话是百分百正确的：”去&lt;em&gt;*的校园网！”&lt;br&gt;贫僧新学期里，继续延续顶着干原则，这次变本加厉，连课都不去上了。(被院长点住一次，被各种老师各种点，还是怂了)花了几日时间，趟过无数前辈同胞们走过的坑，终于把博客搭起来了。(大三才搭起来，你好意思说？)&lt;br&gt;     贫僧就将这几日搭建过程中遇到的问题总结一下，并不指望能帮到其他兄台。&lt;br&gt;     好了，正文开始。&lt;br&gt;     /&lt;/em&gt;此处省略五万字*/&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo github" scheme="//litten.me/tags/Hexo-github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写在技术之外的话</title>
+    <link href="//litten.me/2017/03/08/%E5%86%99%E5%9C%A8%E6%8A%80%E6%9C%AF%E5%A4%96%E7%9A%84%E8%AF%9D/"/>
+    <id>//litten.me/2017/03/08/写在技术外的话/</id>
+    <published>2017-03-08T04:59:21.000Z</published>
+    <updated>2017-03-08T07:27:18.479Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/xiao.jpg" alt="&quot;生与死本无差别&quot;"></p><blockquote><p>以下是正文<br><a id="more"></a></p></blockquote><p>———小抄开始———-</p><pre><code>  “有点累了.......” ------小抄结束------------;</code></pre><p>  本想着依然装叉似的高喊“世间万事与吾皆浮云”来开场，不过我也终不能一世洒脱。一个人坐在正午的教室里，任凭窗外的阳光闪着自己的脸，无奈地笑自己竟只有此时才能静坐一会儿，想着过去，亦想着未来。<br>年前年后的这三个月里，我终于对我的家庭二十年来纠缠不清的琐事有完<br>全的了解，也突然发现，我之一生，应该背负起的责任远比我想象的要沉重许多。<br>这绝非抱怨，亦绝非不愿。只是，陡然间了解事情的来龙去脉，就会十分<br>懊恼，自己浪荡至今，而于家事竟一无所助。</p><p>   我的人生算不上艰难，有爱我亲我疼我不顾一切舍身为我的家人，我的<br>人生绝算不上艰难，然而让我为之心痛的是，听奶奶讲着以前的事，苦累一生，行善一生，竟也赤贫一生，冤枉一生。<br>有些话，并不会说在这里；有些事，也不会说在这里。第一篇博文写这些的原因，仅仅是因为我不希望自己忘记，自己如今是为何而活，以及自己到底是谁的孙子。</p><p>   搭一个博客，可能一天，可能一月，可能一年，但终可以搭完。然而写<br>一个博客，可能一生也不足够。<br>我曾说过，世界上有两种浏览器，一种IE，一种不是IE。<br>我还曾说过，世界上有两种人，一种好人，一种不是好人。<br>如此大好时光，我当不负此生志向。<br>以上，敬好。<br>                              ——方丈遗少杜三贱，丁酉，二月十一，午。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/xiao.jpg&quot; alt=&quot;&amp;quot;生与死本无差别&amp;quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以下是正文&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="人生感悟 博客序文" scheme="//litten.me/tags/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F-%E5%8D%9A%E5%AE%A2%E5%BA%8F%E6%96%87/"/>
     
   </entry>
   

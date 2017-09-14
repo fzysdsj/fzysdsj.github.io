@@ -84,6 +84,8 @@ var _hmt = _hmt || [];
     			
             
     			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">道友</a>
+    			
             
     			
     			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
@@ -383,6 +385,8 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
       
     
       
+      
+      
     
       
       
@@ -394,13 +398,15 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
     
     
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">道友</a></li>
+      
         
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -429,11 +435,11 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">心灵鸡汤 闲的蛋疼</a>
+                <a href="javascript:void(0)" class="js-tag color5">人生感悟 博客序文</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">人生感悟 博客序文</a>
+                <a href="javascript:void(0)" class="js-tag color5">心灵鸡汤 闲的蛋疼</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -492,11 +498,35 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
     
 
     
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="http://www.oschina.net/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>开源中国</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://www.easyicon.net/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>easyicon</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="https://job.toutiao.com/society" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>头条招聘</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://www.stdu.edu.cn/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>铁大官网</a>
+            </li>
+          
+        </ul>
+  		
+    	</section>
+    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">Litten，&lt;br&gt;毕业于华科，就职于鹅厂&lt;br&gt;&lt;br&gt;热爱大海与冷笑话，&lt;br/&gt;目前是一枚前端&lt;br/&gt;&lt;br/&gt;胆小认生，不易相处，&lt;br&gt;年轻无为，卖马为生。</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">Litten，&lt;br&gt;方丈遗少杜三贱&lt;br&gt;&lt;br&gt;本名杜维杰&lt;br/&gt;Node/前端&lt;br/&gt;&lt;br/&gt;江湖路远，笔断尸还&lt;br&gt;别号明发不寐杜怀三&lt;br&gt;</div>
   	  	
     	</section>
     

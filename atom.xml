@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Litten的博客</title>
-  <icon>https://www.gravatar.com/avatar/1b1060c5a2544f4ae03788a00f7c2c93</icon>
-  <subtitle>胆小认生，不易相处</subtitle>
+  <title>fzRoom</title>
+  <icon>https://www.gravatar.com/avatar/468a9ab65b97adb140a5ad15d0291e4b</icon>
+  <subtitle>明发不寐，有怀三人。方丈如何？遗少而已。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="//litten.me/"/>
+  <link href="fzysdsj.github.io/"/>
   <updated>2017-05-01T04:48:38.545Z</updated>
-  <id>//litten.me/</id>
+  <id>fzysdsj.github.io/</id>
   
   <author>
-    <name>Litten</name>
-    <email>litten225@qq.com</email>
+    <name>fzysdsj</name>
+    <email>505589500@qq.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>黄粱梦将尽，回眸已六载</title>
-    <link href="//litten.me/2017/04/30/%E9%BB%84%E7%B2%B1%E6%A2%A6%E5%B0%86%E5%B0%BD%EF%BC%8C%E5%9B%9E%E7%9C%B8%E5%B7%B2%E5%85%AD%E8%BD%BD/"/>
-    <id>//litten.me/2017/04/30/黄粱梦将尽，回眸已六载/</id>
+    <link href="fzysdsj.github.io/2017/04/30/%E9%BB%84%E7%B2%B1%E6%A2%A6%E5%B0%86%E5%B0%BD%EF%BC%8C%E5%9B%9E%E7%9C%B8%E5%B7%B2%E5%85%AD%E8%BD%BD/"/>
+    <id>fzysdsj.github.io/2017/04/30/黄粱梦将尽，回眸已六载/</id>
     <published>2017-04-30T00:20:13.000Z</published>
     <updated>2017-05-01T04:48:38.545Z</updated>
     
@@ -38,14 +38,14 @@
     </summary>
     
     
-      <category term="梦醒 无声" scheme="//litten.me/tags/%E6%A2%A6%E9%86%92-%E6%97%A0%E5%A3%B0/"/>
+      <category term="梦醒 无声" scheme="fzysdsj.github.io/tags/%E6%A2%A6%E9%86%92-%E6%97%A0%E5%A3%B0/"/>
     
   </entry>
   
   <entry>
     <title>长河日落，春星月转，吾已非少年</title>
-    <link href="//litten.me/2017/04/02/%E9%95%BF%E6%B2%B3%E6%97%A5%E8%90%BD%EF%BC%8C%E6%98%A5%E6%98%9F%E6%9C%88%E8%BD%AC%EF%BC%8C%E5%90%BE%E5%B7%B2%E9%9D%9E%E5%B0%91%E5%B9%B4/"/>
-    <id>//litten.me/2017/04/02/长河日落，春星月转，吾已非少年/</id>
+    <link href="fzysdsj.github.io/2017/04/02/%E9%95%BF%E6%B2%B3%E6%97%A5%E8%90%BD%EF%BC%8C%E6%98%A5%E6%98%9F%E6%9C%88%E8%BD%AC%EF%BC%8C%E5%90%BE%E5%B7%B2%E9%9D%9E%E5%B0%91%E5%B9%B4/"/>
+    <id>fzysdsj.github.io/2017/04/02/长河日落，春星月转，吾已非少年/</id>
     <published>2017-04-02T12:17:47.000Z</published>
     <updated>2017-04-03T14:02:32.903Z</updated>
     
@@ -62,14 +62,14 @@
     </summary>
     
     
-      <category term="方丈式鸡汤 真心话 很有教育意义" scheme="//litten.me/tags/%E6%96%B9%E4%B8%88%E5%BC%8F%E9%B8%A1%E6%B1%A4-%E7%9C%9F%E5%BF%83%E8%AF%9D-%E5%BE%88%E6%9C%89%E6%95%99%E8%82%B2%E6%84%8F%E4%B9%89/"/>
+      <category term="方丈式鸡汤 真心话 很有教育意义" scheme="fzysdsj.github.io/tags/%E6%96%B9%E4%B8%88%E5%BC%8F%E9%B8%A1%E6%B1%A4-%E7%9C%9F%E5%BF%83%E8%AF%9D-%E5%BE%88%E6%9C%89%E6%95%99%E8%82%B2%E6%84%8F%E4%B9%89/"/>
     
   </entry>
   
   <entry>
     <title>....</title>
-    <link href="//litten.me/2017/03/30/%E4%B8%80%E9%A2%97%E8%84%86%E5%BC%B1%E7%9A%84%E5%BF%83%E7%A2%8E%E4%BA%86/"/>
-    <id>//litten.me/2017/03/30/一颗脆弱的心碎了/</id>
+    <link href="fzysdsj.github.io/2017/03/30/%E4%B8%80%E9%A2%97%E8%84%86%E5%BC%B1%E7%9A%84%E5%BF%83%E7%A2%8E%E4%BA%86/"/>
+    <id>fzysdsj.github.io/2017/03/30/一颗脆弱的心碎了/</id>
     <published>2017-03-30T13:43:42.000Z</published>
     <updated>2017-04-03T11:50:40.912Z</updated>
     
@@ -82,14 +82,14 @@
     </summary>
     
     
-      <category term="头条笔试 坑爹 方丈遗少" scheme="//litten.me/tags/%E5%A4%B4%E6%9D%A1%E7%AC%94%E8%AF%95-%E5%9D%91%E7%88%B9-%E6%96%B9%E4%B8%88%E9%81%97%E5%B0%91/"/>
+      <category term="头条笔试 坑爹 方丈遗少" scheme="fzysdsj.github.io/tags/%E5%A4%B4%E6%9D%A1%E7%AC%94%E8%AF%95-%E5%9D%91%E7%88%B9-%E6%96%B9%E4%B8%88%E9%81%97%E5%B0%91/"/>
     
   </entry>
   
   <entry>
     <title>关于爱情</title>
-    <link href="//litten.me/2017/03/28/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85/"/>
-    <id>//litten.me/2017/03/28/关于爱情/</id>
+    <link href="fzysdsj.github.io/2017/03/28/%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85/"/>
+    <id>fzysdsj.github.io/2017/03/28/关于爱情/</id>
     <published>2017-03-28T13:53:03.000Z</published>
     <updated>2017-03-28T14:07:37.808Z</updated>
     
@@ -102,14 +102,14 @@
     </summary>
     
     
-      <category term="心灵鸡汤 闲的蛋疼" scheme="//litten.me/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4-%E9%97%B2%E7%9A%84%E8%9B%8B%E7%96%BC/"/>
+      <category term="心灵鸡汤 闲的蛋疼" scheme="fzysdsj.github.io/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4-%E9%97%B2%E7%9A%84%E8%9B%8B%E7%96%BC/"/>
     
   </entry>
   
   <entry>
     <title>node建站第一篇完结</title>
-    <link href="//litten.me/2017/03/28/node%E5%BB%BA%E7%AB%99%E7%AC%AC%E4%B8%80%E7%AF%87%E5%AE%8C%E7%BB%93/"/>
-    <id>//litten.me/2017/03/28/node建站第一篇完结/</id>
+    <link href="fzysdsj.github.io/2017/03/28/node%E5%BB%BA%E7%AB%99%E7%AC%AC%E4%B8%80%E7%AF%87%E5%AE%8C%E7%BB%93/"/>
+    <id>fzysdsj.github.io/2017/03/28/node建站第一篇完结/</id>
     <published>2017-03-28T08:51:40.000Z</published>
     <updated>2017-03-28T09:30:13.134Z</updated>
     
@@ -122,14 +122,14 @@
     </summary>
     
     
-      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+      <category term="node MongoDB jade grunt express" scheme="fzysdsj.github.io/tags/node-MongoDB-jade-grunt-express/"/>
     
   </entry>
   
   <entry>
     <title>node+express搭站阶段五</title>
-    <link href="//litten.me/2017/03/26/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%BA%94/"/>
-    <id>//litten.me/2017/03/26/node-express搭站阶段五/</id>
+    <link href="fzysdsj.github.io/2017/03/26/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%BA%94/"/>
+    <id>fzysdsj.github.io/2017/03/26/node-express搭站阶段五/</id>
     <published>2017-03-26T14:21:41.000Z</published>
     <updated>2017-03-28T09:14:03.502Z</updated>
     
@@ -142,14 +142,14 @@
     </summary>
     
     
-      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+      <category term="node MongoDB jade grunt express" scheme="fzysdsj.github.io/tags/node-MongoDB-jade-grunt-express/"/>
     
   </entry>
   
   <entry>
     <title>node 建站阶段四</title>
-    <link href="//litten.me/2017/03/20/node-%E5%BB%BA%E7%AB%99%E9%98%B6%E6%AE%B5%E5%9B%9B/"/>
-    <id>//litten.me/2017/03/20/node-建站阶段四/</id>
+    <link href="fzysdsj.github.io/2017/03/20/node-%E5%BB%BA%E7%AB%99%E9%98%B6%E6%AE%B5%E5%9B%9B/"/>
+    <id>fzysdsj.github.io/2017/03/20/node-建站阶段四/</id>
     <published>2017-03-20T14:15:36.000Z</published>
     <updated>2017-03-20T14:20:28.452Z</updated>
     
@@ -165,14 +165,14 @@
     </summary>
     
     
-      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+      <category term="node MongoDB jade grunt express" scheme="fzysdsj.github.io/tags/node-MongoDB-jade-grunt-express/"/>
     
   </entry>
   
   <entry>
     <title>node+express搭站阶段三</title>
-    <link href="//litten.me/2017/03/15/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%B8%89/"/>
-    <id>//litten.me/2017/03/15/node-express搭站阶段三/</id>
+    <link href="fzysdsj.github.io/2017/03/15/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%B8%89/"/>
+    <id>fzysdsj.github.io/2017/03/15/node-express搭站阶段三/</id>
     <published>2017-03-15T12:02:01.000Z</published>
     <updated>2017-03-15T13:20:52.265Z</updated>
     
@@ -188,14 +188,14 @@
     </summary>
     
     
-      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+      <category term="node MongoDB jade grunt express" scheme="fzysdsj.github.io/tags/node-MongoDB-jade-grunt-express/"/>
     
   </entry>
   
   <entry>
     <title>node+express搭站阶段二</title>
-    <link href="//litten.me/2017/03/13/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%BA%8C/"/>
-    <id>//litten.me/2017/03/13/node-express搭站阶段二/</id>
+    <link href="fzysdsj.github.io/2017/03/13/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%BA%8C/"/>
+    <id>fzysdsj.github.io/2017/03/13/node-express搭站阶段二/</id>
     <published>2017-03-13T12:57:53.000Z</published>
     <updated>2017-03-13T13:21:03.880Z</updated>
     
@@ -208,14 +208,14 @@
     </summary>
     
     
-      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+      <category term="node MongoDB jade grunt express" scheme="fzysdsj.github.io/tags/node-MongoDB-jade-grunt-express/"/>
     
   </entry>
   
   <entry>
     <title>node+express搭站阶段一</title>
-    <link href="//litten.me/2017/03/12/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%B8%80/"/>
-    <id>//litten.me/2017/03/12/node-express搭站阶段一/</id>
+    <link href="fzysdsj.github.io/2017/03/12/node-express%E6%90%AD%E7%AB%99%E9%98%B6%E6%AE%B5%E4%B8%80/"/>
+    <id>fzysdsj.github.io/2017/03/12/node-express搭站阶段一/</id>
     <published>2017-03-12T13:35:53.000Z</published>
     <updated>2017-03-12T14:15:38.094Z</updated>
     
@@ -228,14 +228,14 @@
     </summary>
     
     
-      <category term="node MongoDB jade grunt express" scheme="//litten.me/tags/node-MongoDB-jade-grunt-express/"/>
+      <category term="node MongoDB jade grunt express" scheme="fzysdsj.github.io/tags/node-MongoDB-jade-grunt-express/"/>
     
   </entry>
   
   <entry>
     <title>总结这几天用Hexo搭建博客遇到的各种问题</title>
-    <link href="//litten.me/2017/03/08/%E6%80%BB%E7%BB%93/"/>
-    <id>//litten.me/2017/03/08/总结/</id>
+    <link href="fzysdsj.github.io/2017/03/08/%E6%80%BB%E7%BB%93/"/>
+    <id>fzysdsj.github.io/2017/03/08/总结/</id>
     <published>2017-03-08T06:10:19.000Z</published>
     <updated>2017-03-08T07:43:31.922Z</updated>
     
@@ -250,14 +250,14 @@
     </summary>
     
     
-      <category term="Hexo github" scheme="//litten.me/tags/Hexo-github/"/>
+      <category term="Hexo github" scheme="fzysdsj.github.io/tags/Hexo-github/"/>
     
   </entry>
   
   <entry>
     <title>写在技术之外的话</title>
-    <link href="//litten.me/2017/03/08/%E5%86%99%E5%9C%A8%E6%8A%80%E6%9C%AF%E5%A4%96%E7%9A%84%E8%AF%9D/"/>
-    <id>//litten.me/2017/03/08/写在技术外的话/</id>
+    <link href="fzysdsj.github.io/2017/03/08/%E5%86%99%E5%9C%A8%E6%8A%80%E6%9C%AF%E5%A4%96%E7%9A%84%E8%AF%9D/"/>
+    <id>fzysdsj.github.io/2017/03/08/写在技术外的话/</id>
     <published>2017-03-08T04:59:21.000Z</published>
     <updated>2017-03-08T07:27:18.479Z</updated>
     
@@ -272,7 +272,7 @@
     </summary>
     
     
-      <category term="人生感悟 博客序文" scheme="//litten.me/tags/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F-%E5%8D%9A%E5%AE%A2%E5%BA%8F%E6%96%87/"/>
+      <category term="人生感悟 博客序文" scheme="fzysdsj.github.io/tags/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F-%E5%8D%9A%E5%AE%A2%E5%BA%8F%E6%96%87/"/>
     
   </entry>
   

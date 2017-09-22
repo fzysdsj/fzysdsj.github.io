@@ -9,17 +9,22 @@
   <link rel="dns-prefetch" href="fzysdsj.github.io">
   <title>node+mysql搭建CMS系统系列(一) | fzRoom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="正道栋梁，诗中猿人，猿中诗人。Node重度依赖者，单身，没钱，长得丑。慎重勾引。">
-<meta name="keywords" content="技术(Node)">
+  <meta name="keywords" content="技术(Node)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="node+mysql搭建CMS系统系列(一)">
 <meta property="og:url" content="fzysdsj.github.io/2017/09/22/node-mysql搭建CMS系统系列-一/index.html">
 <meta property="og:site_name" content="fzRoom">
-<meta property="og:description" content="正道栋梁，诗中猿人，猿中诗人。Node重度依赖者，单身，没钱，长得丑。慎重勾引。">
-<meta property="og:updated_time" content="2017-09-22T00:32:25.683Z">
+<meta property="og:image" content="fzysdsj.github.io/2017/09/22/node-mysql搭建CMS系统系列-一/images/index.png">
+<meta property="og:image" content="/img/index.gif">
+<meta property="og:image" content="/img/signup.gif">
+<meta property="og:image" content="/img/fenlei.gif">
+<meta property="og:image" content="/img/create.gif">
+<meta property="og:image" content="/img/sousuo.gif">
+<meta property="og:image" content="/img/person.gif">
+<meta property="og:updated_time" content="2017-09-22T02:23:31.366Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="node+mysql搭建CMS系统系列(一)">
-<meta name="twitter:description" content="正道栋梁，诗中猿人，猿中诗人。Node重度依赖者，单身，没钱，长得丑。慎重勾引。">
+<meta name="twitter:image" content="fzysdsj.github.io/2017/09/22/node-mysql搭建CMS系统系列-一/images/index.png">
   
     <link rel="alternative" href="/atom.xml" title="fzRoom" type="application/atom+xml">
   
@@ -198,7 +203,180 @@ var _hmt = _hmt || [];
             
                 <div class="article-entry" itemprop="articleBody">
                     
-                                        
+                                        <p> <img src="images/index.png" width="400" height="300" alt="图看不到" align="center"><br><a id="more"></a></p>
+<h1 id="fzRoom-项目记录"><a href="#fzRoom-项目记录" class="headerlink" title="fzRoom 项目记录"></a>fzRoom 项目记录</h1><h2 id="什么是”fzRoom”"><a href="#什么是”fzRoom”" class="headerlink" title="什么是”fzRoom”"></a>什么是”fzRoom”</h2><blockquote>
+<p>‘fzRoom’乃方丈遗少书阁之名，方丈阁。方丈阁者，一方一丈便成阁，极言其狭。然圣人有言：“不以陋室避匡天下之责”。是故书生以”方丈”为阁名，正有所居虽狭，所见虽窄，所为虽微，所献虽薄，而犹不改仲淹忧民之心。作此”fzRoom”,实有聚天下贤士之意，期此盛世之际，江湖路远，彼此相濡与沫。</p>
+<h2 id="谁是方丈遗少"><a href="#谁是方丈遗少" class="headerlink" title="谁是方丈遗少?"></a>谁是方丈遗少?</h2><p><code>方丈遗少</code>，河北石家庄人。本名<code>杜维杰</code>，字<code>三贱</code>，号<code>方丈遗少</code>。世称<code>方丈遗少杜三贱</code>，又因其书阁名为方丈阁，故又自号方丈阁主。且因近将远行，感念三老(祖母，父，母)恩情，又别号<code>明发一寐醉半生</code>，灵感来源于《诗经.小宛》”<code>明发不寐，有怀二人</code>“，取”一睡半生傍母旁”之意。善为文，亦善为代码，犹善BB，钟爱JS，不死不休。 </p>
+<ul>
+<li>诗号:<ul>
+<li><blockquote>
+<p>非吾恋乡家，三老而已；非吾厌金银，有兄而已；非吾略时事，见惯而已，明发不寐，有怀三人。</p>
+<h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ul>
+<li>语言  ：node.js  8.1.3(6+就行)</li>
+<li>框架 ：express  4.15.2</li>
+<li>数据库 ：MySql  5.6</li>
+<li>模板引擎 ： EJS</li>
+<li>包管理 ： bower(前) npm(后)<h2 id="主要中间件"><a href="#主要中间件" class="headerlink" title="主要中间件"></a>主要中间件</h2></li>
+<li>cookie-parse </li>
+<li>bodyPaser</li>
+<li>connect-session</li>
+<li>cookie-parser</li>
+<li>express-session</li>
+<li>express-mysql-session</li>
+<li>morgan</li>
+<li>serve-favicon</li>
+<li>connect-flash</li>
+<li>express-formidable<h2 id="项目结构初步完善"><a href="#项目结构初步完善" class="headerlink" title="项目结构初步完善"></a>项目结构初步完善</h2>├── bin            程序启动相关(express初始化自动生成)<br>├── config      配置相关(数据库信息和路由)<br>├──controllers  控制相关<br>├── views        视图文件目录<br>│   └── pages<br>├──models  模型相关<br>│   ├── db.js 数据库配置信息<br>│   ├── route.js  路由<br>├── sql 数据库文件(.sql)<br>├── 相关软件<br>├── public        静态文件目录<br>│   ├── assets 后台模板静态文件目录(时间紧，全上了)<br>│   ├── css<br>│   ├──audio      音频视频目录<br>│   ├── fonts     bootstrap字体图标目录<br>│   ├── images   图片目录<br>│   ├── js    前台业务逻辑实现<br>│   ├──libs   前端库<br>│   ├──bulid<br>│   └── uploads    上传图片存储目录<br>├──.gitignore     git管理忽略项<br>├── app.js        项目入口文件<br>├──gruntfile.js   grunt配置文件<br>├── bower.json    bower安装模块依赖项<br>├── package.json  npm安装模块依赖项<br>└── README.md     解释文档<br>##</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h2 id="目前实现功能-2017-7-20-至今-兼容pc端和移动端"><a href="#目前实现功能-2017-7-20-至今-兼容pc端和移动端" class="headerlink" title="目前实现功能(2017.7.20-至今)(兼容pc端和移动端)"></a>目前实现功能(2017.7.20-至今)(兼容pc端和移动端)</h2><ul>
+<li>注册</li>
+<li>登录</li>
+<li>注册登录的前后端表单验证</li>
+<li>登出</li>
+<li>登录持久化</li>
+<li>用户信息修改</li>
+<li>文阁<ul>
+<li>文章分类</li>
+<li>发表文章</li>
+<li>文章评论</li>
+<li>文章点赞</li>
+<li>文章分页(假分页)</li>
+</ul>
+</li>
+<li>索阁<ul>
+<li>按用户搜索</li>
+<li>按文章搜索</li>
+<li>按帖子搜索</li>
+</ul>
+</li>
+<li>议阁<ul>
+<li>发表帖子</li>
+<li>帖子评论  </li>
+<li>帖子评论人数</li>
+<li>帖子分页</li>
+</ul>
+</li>
+<li>用户关注功能</li>
+<li>个人中心<ul>
+<li>消息页</li>
+<li>文章页</li>
+<li>帖子页</li>
+</ul>
+</li>
+<li>后台管理(各个表的增删改查)<h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><ul>
+<li>下载源码<blockquote>
+<p>git clone <a href="https://github.com/fzysdsj/fzRoom.git" target="_blank" rel="external">https://github.com/fzysdsj/fzRoom.git</a></p>
+</blockquote>
+</li>
+<li>安装Node和mysql环境<ul>
+<li>安装Node<ul>
+<li><blockquote>
+<p>官网直接下载安装即可，不再赘述（Node -v查看安装是否成功）</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>安装Mysql<ul>
+<li><blockquote>
+<p>推荐wamp,xxamp，phpstudy等程序集成包，不用自己配环境了。“相关软件”文件夹下有navacat for mysql，自行斟酌使用。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>安装淘宝npm镜像cnpm(国内速度快)<ul>
+<li><blockquote>
+<p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="external">https://registry.npm.taobao.org</a></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>安装express<ul>
+<li><blockquote>
+<p>cnpm install -g express-generato</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>cnpm install -g express</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>express -V  #验证是否安装成功  </p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>将sql文件夹下的”nodedb.sql”导入Mysql数据库中<ul>
+<li><blockquote>
+<p>打开/config/db.js ,修改下数据库的连接信息.(换成你自己的数据库用户名和密码)</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><blockquote>
+<p>cnpm install</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>npm start（这里就可以启动了，接下来还可以安装个pm2，监控一下）</p>
+</blockquote>
+</li>
+<li>安装pm2<ul>
+<li><blockquote>
+<p>cnpm install -g pm2</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>pm2 start ./bin/www</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>打开浏览器，输入”<a href="http://localhost:3000" target="_blank" rel="external">http://localhost:3000</a>“<ul>
+<li><blockquote>
+<p>出现主页面，说明运行成功</p>
+<h2 id="相关路由"><a href="#相关路由" class="headerlink" title="相关路由"></a>相关路由</h2></blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://localhost:3000" target="_blank" rel="external">主页</a>:<a href="http://localhost:3000/" target="_blank" rel="external">http://localhost:3000/</a></li>
+<li><a href="http://localhost:3000/users/signup" target="_blank" rel="external">注册</a>:<a href="http://localhost:3000/users/signup" target="_blank" rel="external">http://localhost:3000/users/signup</a></li>
+<li><a href="http://localhost:3000/users/signin" target="_blank" rel="external">登录</a>:<a href="http://localhost:3000/users/signin" target="_blank" rel="external">http://localhost:3000/users/signin</a></li>
+<li><a href="http://localhost:3000/wenRoom" target="_blank" rel="external">文阁</a>:<a href="http://localhost:3000/wenRoom" target="_blank" rel="external">http://localhost:3000/wenRoom</a></li>
+<li><a href="http://localhost:3000/articles" target="_blank" rel="external">文章相关页</a>:<a href="http://localhost:3000/articles/article" target="_blank" rel="external">http://localhost:3000/articles/article</a></li>
+<li><a href="http://localhost:3000/searchRoom" target="_blank" rel="external">索阁相关</a>:<a href="http://localhost:3000/searchRoom" target="_blank" rel="external">http://localhost:3000/searchRoom</a></li>
+<li><a href="http://localhost:3000/talkRoom" target="_blank" rel="external">议阁</a>:<a href="http://localhost:3000/talkRoom" target="_blank" rel="external">http://localhost:3000/talkRoom</a></li>
+<li><a href="http://localhost:3000/wuRoom" target="_blank" rel="external">武阁</a>:<a href="http://localhost:3000/wuRoom" target="_blank" rel="external">http://localhost:3000/wuRoom</a></li>
+<li><a href="http://localhost:3000/users/toSelect/用户Id" target="_blank" rel="external">个人中心</a>:<a href="http://localhost:3000/users/toSelect/用户Id" target="_blank" rel="external">http://localhost:3000/users/toSelect/用户Id</a><h2 id="部分演示（前台使用的若古文学，特在此声明，不做任何商业用途。）"><a href="#部分演示（前台使用的若古文学，特在此声明，不做任何商业用途。）" class="headerlink" title="部分演示（前台使用的若古文学，特在此声明，不做任何商业用途。）"></a>部分演示（前台使用的若古文学，特在此声明，不做任何商业用途。）</h2></li>
+<li>登录登出<ul>
+<li><img src="/img/index.gif" alt="&#39;登录登出&#39;"></li>
+</ul>
+</li>
+<li>注册<ul>
+<li><img src="/img/signup.gif" alt="&#39;注册&#39;"><ul>
+<li>查看文章分类</li>
+<li><img src="/img/fenlei.gif" alt="&#39;查看文章分类&#39;"></li>
+<li>文章，评论点赞及发表</li>
+<li><img src="/img/create.gif" alt="&#39;文章，评论点赞及发表&#39;"></li>
+<li>按条件搜索</li>
+<li><img src="/img/sousuo.gif" alt="&#39;按条件搜索&#39;"></li>
+<li>个人中心</li>
+<li><img src="/img/person.gif" alt="&#39;个人中心&#39;"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
                                             
 
                                                 

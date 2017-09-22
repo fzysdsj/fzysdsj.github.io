@@ -10,14 +10,14 @@
   <title>node+express搭站阶段一 | fzRoom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="杏云燕雨兰初上，寂寞妍姿开雾崖。明月曾经川岸去，怎知碎影竟朱砂。">
-<meta name="keywords" content="node MongoDB jade grunt express">
+<meta name="keywords" content="技术(Node)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="node+express搭站阶段一">
 <meta property="og:url" content="fzysdsj.github.io/2017/03/12/node-express搭站阶段一/index.html">
 <meta property="og:site_name" content="fzRoom">
 <meta property="og:description" content="杏云燕雨兰初上，寂寞妍姿开雾崖。明月曾经川岸去，怎知碎影竟朱砂。">
 <meta property="og:image" content="fzysdsj.github.io/2017/03/12/node-express搭站阶段一/images/changlan.jpg">
-<meta property="og:updated_time" content="2017-09-14T04:21:18.778Z">
+<meta property="og:updated_time" content="2017-09-22T00:32:02.618Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="node+express搭站阶段一">
 <meta name="twitter:description" content="杏云燕雨兰初上，寂寞妍姿开雾崖。明月曾经川岸去，怎知碎影竟朱砂。">
@@ -181,54 +181,54 @@ var _hmt = _hmt || [];
           </div>
           <div id="js-content" class="content-ll">
             <article id="post-node-express搭站阶段一" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
+    <div class="article-inner">
         
+            <header class="article-header">
+                
   
     <h1 class="article-title" itemprop="name">
       node+express搭站阶段一
     </h1>
   
 
-        
-        <a href="/2017/03/12/node-express搭站阶段一/" class="archive-article-date">
+                    
+                        <a href="/2017/03/12/node-express搭站阶段一/" class="archive-article-date">
   	<time datetime="2017-03-12T13:35:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-12</time>
 </a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="images/changlan.jpg" alt="&quot;这图其实和文章有关&quot;"><br>杏云燕雨兰初上，<br>寂寞妍姿开雾崖。<br>明月曾经川岸去，<br>怎知碎影竟朱砂。<br><a id="more"></a></p>
+                            
+            </header>
+            
+                <div class="article-entry" itemprop="articleBody">
+                    
+                                        <p><img src="images/changlan.jpg" alt="&quot;这图其实和文章有关&quot;"><br>杏云燕雨兰初上，<br>寂寞妍姿开雾崖。<br>明月曾经川岸去，<br>怎知碎影竟朱砂。<br><a id="more"></a></p>
 <h2 id="说些废话"><a href="#说些废话" class="headerlink" title="说些废话"></a>说些废话</h2><pre><code>&gt;这首诗贫僧其实是不爱的，拼凑意境者，吾辈向来不齿。但爱极了诗的主人，也就爱屋及乌的爱极了这诗。也正因为爱极了诗的主人，竟也不顾一切地要为她做些什么，也正好这学期要每人做一个软件。贫僧思来想去，就做下了用node+express+MongoDB（贫僧一直相信NOSQL的潜力）搭建一个仙剑美人录的网站，将仙剑系列诸位美人皆揽入怀。（看到这里，诸位檀越当晓得贫僧是仙粉了。）思路有了以后，图书馆翻阅一整天，竟奇怪并没有多少关于node的书，仅有的几本也只是入门，对于建站可谓毫无用处。贫僧以为无路可走，正想着放弃这个愚蠢的想法,幸运的是，偶然间在慕课网上看到了scott大神的node建站教程，与我的想法是不谋而合。贫僧当时拍手，就差敲桌子指着老师说：&quot;我要回家&quot;。
    后来的事是，我还真的逃课回家了，然后，老师们也真不客气，都给我点名了。（你妹）
 </code></pre><h2 id="步入正题"><a href="#步入正题" class="headerlink" title="步入正题"></a>步入正题</h2><p> scoot建站的node视频好像是14年的了，对于现在的我们来说，版本是有些老了。经过三天学习，虽然还没学完，但也差不多了。（真的是怒怼命令行三天，早八点到晚一点）<br> A.自己的体会：<br> 1.首先这门课涉及了很多知识：<br> a.jade<br> b.node和npm<br> c.express<br> d.grunt<br> e.MoogoDB(这是吸引我的主要原因)<br> f.bootstrap<br> ……..<br> 2.私以为node建站，命令行操作非常适合装逼人群。<br> 3.bootstrap自带模板简直爽的不行。<br> 4.jade格式不要太风骚。<br> 5.MoogoDB无表操作绝对适合强迫症患者。<br> 6.程序出现错误，不要急着改代码，仔细看错误信息，大部分是因为粗心问题，剩下的基本是插件版本问题。<br> 7.吐槽一下express升级之后的版本，是真的难受。不过，理解万岁。我忘了，我至今的node还是5.7版的，以至于上一篇文章说的“hexo-generator-json-content”始终安不上…….（痛心脸）<br>B.目前完成的任务：<br> 1.首页，登录页，注册页，用户列表页，信息录入页，信息管理页，详情页基本完成。<br> 2.实现了注册登录，添加删除用户，修改用户信息，修改美人信息。<br> 3.初步完成MVC架构。<br> C.尚且存在的问题：<br> 1.session回调用户信息后，返回不了给数据库。<br> 2.登录成功后不跳转。<br> 3.用户权限实现未果。<br> 4.用户名输入为空也能登录的bug尚未修复。<br> 5.数据库数据删除未果。<br> D.接下来要完成的模块及优化<br> a.实现评论模块。<br> b.实现美人分类模块。<br> c.实现注册模块优化<br> d.实现登录模块优化<br> e.实现多人同时登录<br> f.实现添加用户权限<br> g.尝试gulp代替grunt。<br> h.实现今晚十一点睡。<br>  以上，敬安。<br>       ——————方丈遗少杜三贱，丁酉二月一十五，夜。</p>
 
-      
+                                            
 
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+                                                
+        </div>
+        <div class="article-info article-info-index">
+            
+                    
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">node MongoDB jade grunt express</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">技术(Node)</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+                        
 
-      
+                            
 
-      
-        
+                                    
+                                        
 <div class="share-btn share-icons tooltip-left">
   <div class="tooltip tooltip-east">
     <span class="tooltip-item">
@@ -278,13 +278,13 @@ var _hmt = _hmt || [];
 </div>
 
 <div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
+                                            
+                                                <div class="clearfix"></div>
+        </div>
+        </div>
 </article>
 
-  
+    
 <nav id="article-nav">
   
     <a href="/2017/03/13/node-express搭站阶段二/" id="article-nav-newer" class="article-nav-link-wrap">
@@ -304,8 +304,8 @@ var _hmt = _hmt || [];
   
 </nav>
 
-
-<aside class="wrap-side-operation">
+        
+            <aside class="wrap-side-operation">
     <div class="mod-side-operation">
         
         <div class="jump-container" id="js-jump-container" style="display:none;">
@@ -322,23 +322,23 @@ var _hmt = _hmt || [];
 </aside>
 
 
-
-
-<!-- UY BEGIN -->
+                
+                    
+                        <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2144585"></script>
-<!-- UY END --> 
-  
-  
-  
+<!-- UY END -->
+                            
+                                <!--  -->
 
-  
+                                
 
-  
+                                            
 
-  
+                                                        
 
-
+                                                                
+                                                                            
           </div>
         </div>
       </div>
@@ -431,39 +431,23 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">node MongoDB jade grunt express</a>
+                <a href="javascript:void(0)" class="js-tag color4">技术(Node)</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Node.js Express Mysql Ejs</a>
+                <a href="javascript:void(0)" class="js-tag color3">话外</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">头条笔试 坑爹 方丈遗少</a>
+                <a href="javascript:void(0)" class="js-tag color3">情感</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">心灵鸡汤 闲的蛋疼</a>
+                <a href="javascript:void(0)" class="js-tag color3">感悟</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">人生感悟 博客序文</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Hexo github</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Node 改号 逼格 正式开篇</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">方丈式鸡汤 真心话 很有教育意义</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">梦醒 无声</a>
+                <a href="javascript:void(0)" class="js-tag color3">技术</a>
               </li>
             
             <div class="clearfix"></div>

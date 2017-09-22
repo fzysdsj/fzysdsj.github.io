@@ -10,14 +10,14 @@
   <title>node+express搭站阶段五 | fzRoom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="以前，我总不以为然的一句话就是”大道至简”，听起来像极了不会做的人自欺欺人的话，但这两天自己狠心砍掉自己废了老半天劲加上去的特效，我似乎也算明白了些，直入主题，有时候比卖弄玄虚来得更高明些。">
-<meta name="keywords" content="node MongoDB jade grunt express">
+<meta name="keywords" content="技术(Node)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="node+express搭站阶段五">
 <meta property="og:url" content="fzysdsj.github.io/2017/03/26/node-express搭站阶段五/index.html">
 <meta property="og:site_name" content="fzRoom">
 <meta property="og:description" content="以前，我总不以为然的一句话就是”大道至简”，听起来像极了不会做的人自欺欺人的话，但这两天自己狠心砍掉自己废了老半天劲加上去的特效，我似乎也算明白了些，直入主题，有时候比卖弄玄虚来得更高明些。">
 <meta property="og:image" content="fzysdsj.github.io/2017/03/26/node-express搭站阶段五/images/bdyz.PNG">
-<meta property="og:updated_time" content="2017-09-14T04:22:06.951Z">
+<meta property="og:updated_time" content="2017-09-22T00:32:18.496Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="node+express搭站阶段五">
 <meta name="twitter:description" content="以前，我总不以为然的一句话就是”大道至简”，听起来像极了不会做的人自欺欺人的话，但这两天自己狠心砍掉自己废了老半天劲加上去的特效，我似乎也算明白了些，直入主题，有时候比卖弄玄虚来得更高明些。">
@@ -181,56 +181,56 @@ var _hmt = _hmt || [];
           </div>
           <div id="js-content" class="content-ll">
             <article id="post-node-express搭站阶段五" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
+    <div class="article-inner">
         
+            <header class="article-header">
+                
   
     <h1 class="article-title" itemprop="name">
       node+express搭站阶段五
     </h1>
   
 
-        
-        <a href="/2017/03/26/node-express搭站阶段五/" class="archive-article-date">
+                    
+                        <a href="/2017/03/26/node-express搭站阶段五/" class="archive-article-date">
   	<time datetime="2017-03-26T14:21:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-26</time>
 </a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="images/bdyz.PNG" alt="&quot;手写的表单验证，虽然还没写完&quot;"><br>以前，我总不以为然的一句话就是”大道至简”，听起来像极了不会做的人自欺欺人的话，但这两天自己狠心砍掉自己废了老半天劲加上去的特效，我似乎也算明白了些，直入主题，有时候比卖弄玄虚来得更高明些。<br><a id="more"></a></p>
+                            
+            </header>
+            
+                <div class="article-entry" itemprop="articleBody">
+                    
+                                        <p><img src="images/bdyz.PNG" alt="&quot;手写的表单验证，虽然还没写完&quot;"><br>以前，我总不以为然的一句话就是”大道至简”，听起来像极了不会做的人自欺欺人的话，但这两天自己狠心砍掉自己废了老半天劲加上去的特效，我似乎也算明白了些，直入主题，有时候比卖弄玄虚来得更高明些。<br><a id="more"></a></p>
 <p>总结一下这“忙碌的一周”我到底干了些什么事</p>
 <h2 id="解决的问题"><a href="#解决的问题" class="headerlink" title="解决的问题"></a>解决的问题</h2><p>1.主页不能自适应，只有在1366*768分辨率下可以完美显示。（解决方案：几乎砍掉所有的特效，心疼一分钟）<br>2.用户名为空也能注册登录的bug<br>3.IE678不兼容问题(解决方案：采用折中方法)<br>4.搜索框与导航栏在页面大小改变时会出现不在一排的情况。<br>5.方丈遗少杜三贱的品牌效应没有做好。</p>
 <h2 id="完成的模块"><a href="#完成的模块" class="headerlink" title="完成的模块"></a>完成的模块</h2><p>1.注册模块(尚缺少ajax回调验证用户名是否已存在)<br>2.登录模块</p>
 <h2 id="尚需完成的模块"><a href="#尚需完成的模块" class="headerlink" title="尚需完成的模块"></a>尚需完成的模块</h2><p>1.错误提示模块<br>2.论坛模块<br>3.娱乐模块<br>4.用户完善信息模块<br>5.网站创始人模块</p>
 <h2 id="体会"><a href="#体会" class="headerlink" title="体会"></a>体会</h2><p>感觉自己一周贼忙碌，写下来却只是做了注册登录，难过。其实这一周前五天大部分时间是在给网站加特效，改特效，自以为特效牛逼就是网站牛逼，周五晚上突然一实验，响应式下这些特效全部完蛋，所以，贫僧忍痛割爱，全部砍掉，心内痛苦，非一言一语所能言明也。<br>不过，用户体验并不一定要看到多多的特效，特效是给傻子们看的，真正的智者会从简单中看复杂。（你麻痹加不了响应式的特效，就在这里胡吹。）<br>好了，就这样。<br>以上，敬安<br>               ——————方丈遗少杜三贱，丁酉二月三十，晨。</p>
 
-      
+                                            
 
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+                                                
+        </div>
+        <div class="article-info article-info-index">
+            
+                    
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">node MongoDB jade grunt express</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">技术(Node)</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+                        
 
-      
+                            
 
-      
-        
+                                    
+                                        
 <div class="share-btn share-icons tooltip-left">
   <div class="tooltip tooltip-east">
     <span class="tooltip-item">
@@ -280,13 +280,13 @@ var _hmt = _hmt || [];
 </div>
 
 <div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
+                                            
+                                                <div class="clearfix"></div>
+        </div>
+        </div>
 </article>
 
-  
+    
 <nav id="article-nav">
   
     <a href="/2017/03/28/node建站第一篇完结/" id="article-nav-newer" class="article-nav-link-wrap">
@@ -306,8 +306,8 @@ var _hmt = _hmt || [];
   
 </nav>
 
-
-<aside class="wrap-side-operation">
+        
+            <aside class="wrap-side-operation">
     <div class="mod-side-operation">
         
         <div class="jump-container" id="js-jump-container" style="display:none;">
@@ -324,23 +324,23 @@ var _hmt = _hmt || [];
 </aside>
 
 
-
-
-<!-- UY BEGIN -->
+                
+                    
+                        <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2144585"></script>
-<!-- UY END --> 
-  
-  
-  
+<!-- UY END -->
+                            
+                                <!--  -->
 
-  
+                                
 
-  
+                                            
 
-  
+                                                        
 
-
+                                                                
+                                                                            
           </div>
         </div>
       </div>
@@ -433,39 +433,23 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">node MongoDB jade grunt express</a>
+                <a href="javascript:void(0)" class="js-tag color4">技术(Node)</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Node.js Express Mysql Ejs</a>
+                <a href="javascript:void(0)" class="js-tag color3">话外</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">头条笔试 坑爹 方丈遗少</a>
+                <a href="javascript:void(0)" class="js-tag color3">情感</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">心灵鸡汤 闲的蛋疼</a>
+                <a href="javascript:void(0)" class="js-tag color3">感悟</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">人生感悟 博客序文</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Hexo github</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Node 改号 逼格 正式开篇</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">方丈式鸡汤 真心话 很有教育意义</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">梦醒 无声</a>
+                <a href="javascript:void(0)" class="js-tag color3">技术</a>
               </li>
             
             <div class="clearfix"></div>

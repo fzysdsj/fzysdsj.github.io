@@ -16,7 +16,7 @@
 <meta property="og:url" content="fzysdsj.github.io/2017/09/25/servlet与router/index.html">
 <meta property="og:site_name" content="fzRoom">
 <meta property="og:description" content="最近刚刚跟着老邹在迫不得已的情况下玩了些java,玩到servlet的时候，我突然恍然大悟，这尼玛不就是node的router嘛！">
-<meta property="og:updated_time" content="2017-09-26T01:20:10.523Z">
+<meta property="og:updated_time" content="2017-09-26T02:12:22.973Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="servlet与router">
 <meta name="twitter:description" content="最近刚刚跟着老邹在迫不得已的情况下玩了些java,玩到servlet的时候，我突然恍然大悟，这尼玛不就是node的router嘛！">
@@ -199,8 +199,7 @@ var _hmt = _hmt || [];
                 <div class="article-entry" itemprop="articleBody">
                     
                                         <p>最近刚刚跟着老邹在迫不得已的情况下玩了些java,玩到servlet的时候，我突然恍然大悟，这尼玛不就是node的router嘛！<br><a id="more"></a></p>
-<p>##比较一炮子</p>
-<blockquote>
+<h2 id="比较一炮子"><a href="#比较一炮子" class="headerlink" title="比较一炮子"></a>比较一炮子</h2><blockquote>
 <p>首先我们可以从数据的流动上寻到一些端倪，同样是玩MVC，也必然都遵循MVC的标准。JAVA里面DAO是model层，node里面也可以写Dao，JAVA里面view层是jsp，node里面是html模板(jade,ejs),JAVA里面controller层是DaoImpl层，node就可以直接写controller，里面堆满js文件。那么servlet会写在哪里呢？自然是<em>Servlet了(addServlet,updateServlet,deleteServlet,queryServlet…….),</em>Servlet中要进行的无非是实例化impl对象，调用dao层里的增删改查方法，进而操作数据库，并将数据转发给<em>.jsp，给定好@webServlet，通过请求url，将后台转发的数据渲染到</em>.jsp上，展示给用户。<em>.jsp上的数据也会通过相同方式到达</em>Servlet。那么在node中数据是否也是这样流动的呢？必然的！一般一个node搭建的web项目，数据的流动大体会是这个样子的：首先，路由新建一个url，并在回调函数中做相关业务逻辑（这就相当于 java中的public class <em>servlet）,最后通过res.send或res.render，将数据转发给</em>.ejs。当用户请求这个url时，router.get会将router.post(url,callback)转发给对应页面的数据渲染到此页面上，并将页面展示给用户。在这个过程中，java中的servlet与node中的router起到了一样的作用，我称之为二手贩子。何为二手贩子？即数据库是卖家，router通过post，以数据库心仪的价格买来数据，并展示给<em>.ejs（是展示，也就是说并未给他使用）。当这个url被请求时，router.get(url,callback)触发，</em>.ejs请求使用数据，router.get(url,callback)将数据交给<em>.ejs交易完成。</em>.ejs拿到数据，在用户面前狐假虎威。当然在这个三方交易中，数据的流动是双向的，即*.ejs可以是卖家，也可以是买家，.jsp亦同。但router和servle的二手贩子性质不会变，他们在数据买卖中起着至关重要的作用，他们没有对数据有过任何实质性的贡献，却主宰着数据买卖的成功与否。数据世界里，也有人们意想不到的权力斗争呢。</p>
 </blockquote>
 
@@ -464,11 +463,11 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">感悟</a>
+                <a href="javascript:void(0)" class="js-tag color3">工具</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">工具</a>
+                <a href="javascript:void(0)" class="js-tag color3">感悟</a>
               </li>
              
               <li class="article-tag-list-item">

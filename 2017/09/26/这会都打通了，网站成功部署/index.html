@@ -7,18 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <meta name="baidu-site-verification" content="23NW0e4tKr" />
   <link rel="dns-prefetch" href="fzysdsj.github.io">
-  <title>Archives: 2017/4 | fzRoom</title>
+  <title>这回都打通了，fzRoom成功部署上线 | fzRoom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="正道栋梁，诗中猿人，猿中诗人。Node重度依赖者，单身，没钱，长得丑。慎重勾引。">
-<meta name="keywords" content="前端,js,jquery,javascript,html5,文学,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
-<meta property="og:type" content="website">
-<meta property="og:title" content="fzRoom">
-<meta property="og:url" content="fzysdsj.github.io/archives/2017/04/index.html">
+  <meta name="description" content="今日又花费一个时辰，终于找到症结所在，成功反向代理3389端口到fzroom.xin，自然要来总结一下。">
+<meta name="keywords" content="nginx 阿里云 node">
+<meta property="og:type" content="article">
+<meta property="og:title" content="这回都打通了，fzRoom成功部署上线">
+<meta property="og:url" content="fzysdsj.github.io/2017/09/26/这会都打通了，网站成功部署/index.html">
 <meta property="og:site_name" content="fzRoom">
-<meta property="og:description" content="正道栋梁，诗中猿人，猿中诗人。Node重度依赖者，单身，没钱，长得丑。慎重勾引。">
+<meta property="og:description" content="今日又花费一个时辰，终于找到症结所在，成功反向代理3389端口到fzroom.xin，自然要来总结一下。">
+<meta property="og:updated_time" content="2017-09-26T13:11:29.366Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="fzRoom">
-<meta name="twitter:description" content="正道栋梁，诗中猿人，猿中诗人。Node重度依赖者，单身，没钱，长得丑。慎重勾引。">
+<meta name="twitter:title" content="这回都打通了，fzRoom成功部署上线">
+<meta name="twitter:description" content="今日又花费一个时辰，终于找到症结所在，成功反向代理3389端口到fzroom.xin，自然要来总结一下。">
   
     <link rel="alternative" href="/atom.xml" title="fzRoom" type="application/atom+xml">
   
@@ -177,103 +178,180 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-这会都打通了，网站成功部署" class="article article-type-post " itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+  
+    <h1 class="article-title" itemprop="name">
+      这回都打通了，fzRoom成功部署上线
+    </h1>
+  
+
+                    
+                        <a href="/2017/09/26/这会都打通了，网站成功部署/" class="archive-article-date">
+  	<time datetime="2017-09-26T12:35:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-26</time>
+</a>
                             
-                                
-                                    
-                                        
+            </header>
+            
+                <div class="article-entry" itemprop="articleBody">
+                    
+                                        <blockquote>
+<p>今日又花费一个时辰，终于找到症结所在，成功反向代理3389端口到fzroom.xin，自然要来总结一下。<br><a id="more"></a></p>
+</blockquote>
+<h2 id="nginx误区"><a href="#nginx误区" class="headerlink" title="nginx误区"></a>nginx误区</h2><blockquote>
+<p>和先前明明是mysql密码问题，我却非要认准centos没有浏览器就没有session的错误如出一辙。这次nginx反向代理之前一直未成功的原因也是我对问题的判断方向出了错误，在之前，我一直认为nginx是成功安装的，毕竟yum install nginx简单粗暴吊到炸，但我忽略了一个非常严重的问题，安装上并不代表可以使用。先前虽然也曾尝试过往这方面想，但终究走进了.conf配置不正确的大坑，一路一配，9月初鼓捣了几天无果后撂下了。这几日拾起来重弄，可能是因为时间不够的原因，竟然豁然开朗，昨日搞通公网IP，今日代理到域名，很有一日一步之滋味。总得来说，先前花费数日也没弄好的原因，是钻进了思维的死区，一直以为是.conf配置的问题，就一直在百度相关方案，却都行不通。今日则是卸载nginx后用源码方式安装不可用，又用yum install nginx 暴力安装。不过这次学聪明了一点，那就是先用 <pre><code>ps -ef | grep nginx</code></pre>查看下nginx进程，杀死后再启动。最后配置.conf文件，果然代理成功，打开 fzroom.xin，即可看到首页。</p>
+</blockquote>
+<h2 id="总结一下"><a href="#总结一下" class="headerlink" title="总结一下"></a>总结一下</h2><blockquote>
+<p>fzRoom是我从7月末开始写的，到今天断断续续两个多月，中间因为一些突发事故也曾中断半个月，总得来说，代码量不大，实现也很陋，回调函数写到死，但好歹后台代码都是我一毛钱一毛钱敲出来的。毕竟如今node+mysql的完整项目，网上很难找到。我计划着将这两个月的代码写成一个教程，从头到尾的完整复述fzroom的实现。当然，代码我会进行适当重构，并尝试用最新的async/await 解决一下无限回调的问题，那么用node写完一个网站之后，我对它的评价如何呢？我想可以用一句话来形容：兵行险招，大巧不工。</p>
+<h2 id="与java对比"><a href="#与java对比" class="headerlink" title="与java对比"></a>与java对比</h2><p>最近正好也在学java，那么与java相比，谁的学习成本更高呢？我个人认为，是node。为什么这么说呢？不可控风险影响投机成本，java与node相比，其最大的优势在于稳定，JVM横行霸道，确实天下无敌，这是不容置疑的事实。并且java各种API稳定到爆炸，几乎所有问题都能在网上找到相应答案。而node就不那么幸运了。在noder行列中，有一大部分是前端顺带玩node的（我其实也算），这些人只是因为node有个js后缀，就自以为可以前后通吃，驰骋天下。可残酷的事实是，node所有的高性能，并不是因为所谓的异步，而是因为它底层的c++内置模块，异步只是它的表现形式，就如同武功招式一样，但高手从不以招式的华丽来决定排位，内功是高手比拼的根本，而node的c++内置模块就是它的内功。几个月前，我也曾这样认为，js的执行效率怎么低了，node异步甩其它语言几条街。异步是由同步实现的，所谓的异步，都是业务逻辑的异步，计算机底层的运算逻辑从不会因为语言而改变，所以，那些捧一门语言的，总有些推销的嫌疑。书归正传，node学习难度高，一是因为风险较高导致投机成本降低，二是noder中高手不多，项目问题碎片化，很多时候晚上根本搜不到问题答案，三是版本迭代太快，学习资料陈旧短缺。四是前端人员普遍底层知识不足，上来玩框架，并未理解node底层数据流动。总而言之，在相同条件下，一个人学java必然比学node更有前途，也更稳定。当然，热爱是学习语言的第一标准，这也是为什么我们专业就我一个玩node的，我也乐此不疲的原因了。我看好node，也看好js的原因只有一个，云的普及。<br>以上，敬安。</p>
+</blockquote>
+
                                             
-                                                    
-                                                        <section class="archives-wrap">
-                                                            <div class="archive-year-wrap">
-                                                                <a href="/archives/2017" class="archive-year">
-                                                                    2017
-                                                                </a>
-                                                            </div>
-                                                            <div class="archives">
-                                                                
-                                                                    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/30/黄粱梦将尽，回眸已六载/" class="archive-article-date">
-  	<time datetime="2017-04-30T00:20:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-30</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/04/30/黄粱梦将尽，回眸已六载/">黄粱梦将尽，回眸已六载</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
+                                                
+        </div>
+        <div class="article-info article-info-index">
+            
+                    
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">情感</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">nginx 阿里云 node</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+                        
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-                                                                        
+                            
+
                                     
                                         
-                                                                    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/02/长河日落，春星月转，吾已非少年/" class="archive-article-date">
-  	<time datetime="2017-04-02T12:17:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-02</time>
-</a>
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/04/02/长河日落，春星月转，吾已非少年/">长河日落，春星月转，吾已非少年</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">话外</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
   </div>
-</article>
-                                                                        
-                                                                            
-                                                            </div>
-                                                        </section>
-                                                        
+</div>
 
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACsUlEQVR42u3ay44bMQwEwP3/n3auAeJHNyklDlBzWqzHI5UOI7qpn5/4ery9Xt35/gm////9KH/eefjCw8PDuzD1zaSTJ7y6p12IJ0uAh4eHd4336o3aDpNMvX1avkng4eHhfTPv/SSSLaQtmvHw8PD+d177Kk/K63YLwcPDw/u3vPyVnT96vxD50w5kLXh4eHgxL+8ifc/fV/p7eHh4eOuuehvR5kVzO93H6MLDw8O7wcuHyUPb5M6zTa8Py4qHh4d3jXe2tZ/EE6cOY33YcvDw8PCO8tpW/anSOS/H2yZcUbPj4eHhrXn5BjA7cDBLX2ef4uHh4d3j5V9O8C0vKZTzjSdaSjw8PLw1rw1YZ6HALJDNI4kPrS88PDy8C7xZ8759A+eHANp218sZ4uHh4V3gbUh5XHuqYdZuYHh4eHj3ePnwm2I3X+k2qK2jWzw8PLwLvP2k22BiVoJH8TEeHh7eUd6s7t4Xvnm7q12sIqvAw8PDO8q7vQSzVlm9HHh4eHgXeMNbg9bXpshOFmt1AAsPDw9vwZuFC3l8sGnzt5nKy5MReHh4eEd5+St41qbK2e+3k9ny4eHh4d3j5UOeav+3wW67YdRnwfDw8PBiXhub7s8y5fjZtvHk6AAeHh7eUV4Sm9Y/+OMCfbPl1Ck1Hh4e3lHeDJAPv3/+LJ7Aw8PD+zu8WWza/vafjTj8FA8PD+8arz10tbn/VBCclOl4eHh4Z3mP8opWa9GL24/4MqXGw8PDO8TLr1m7qy2y86NUs4IbDw8P7xRv1p6fNaU27f+kbfbku3h4eHjXePkBgry51Rbc7dGEaKHx8PDwvoDXxgSbbWBf9OPh4eF9Ay95HbfbwwwQzRAPDw/vGi8JC/LyN8e04UK9WHh4eHgXeMMf+fHk6iJ4sf38zC48PDy8lPcLdPWccZDqnFUAAAAASUVORK5CYII=" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+                                            
+                                                <div class="clearfix"></div>
+        </div>
+        </div>
+</article>
+
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/09/26/部署node项目到阿里云的小坑记录/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">部署node项目fzroom到阿里云的小坑记录</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+        
+            <aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+                
+                    
+                        <!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2144585"></script>
+<!-- UY END -->
+                            
+                                <!--  -->
+
+                                
+
+                                            
+
+                                                        
+                                                            <section id="comments">
+                                                                <div id="disqus_thread"></div>
+                                                                <script type="text/javascript">
+                                                                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                                                                    var disqus_shortname = 'hexo-generator-feed,hexo-generator-baidu-sitemap,hexo-generator-sitemap'; // required: replace example with your forum shortname
+
+                                                                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                                                                    (function() {
+                                                                        var dsq = document.createElement('script');
+                                                                        dsq.type = 'text/javascript';
+                                                                        dsq.async = true;
+                                                                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                                                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                                                    })();
+                                                                </script>
+                                                                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                                            </section>
                                                             
 
-                                                                    
+                                                                
+                                                                            
           </div>
         </div>
       </div>
@@ -296,8 +374,8 @@ var _hmt = _hmt || [];
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,

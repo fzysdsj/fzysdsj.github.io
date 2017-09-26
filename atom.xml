@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="fzysdsj.github.io/"/>
-  <updated>2017-09-26T00:36:56.570Z</updated>
+  <updated>2017-09-26T02:10:52.391Z</updated>
   <id>fzysdsj.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>部署node项目fzroom到阿里云的小坑记录</title>
+    <link href="fzysdsj.github.io/2017/09/26/%E9%83%A8%E7%BD%B2node%E9%A1%B9%E7%9B%AE%E5%88%B0%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84%E5%B0%8F%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
+    <id>fzysdsj.github.io/2017/09/26/部署node项目到阿里云的小坑记录/</id>
+    <published>2017-09-26T01:20:42.000Z</published>
+    <updated>2017-09-26T02:10:52.391Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>在部署自己的项目到fzroom时，犯了一个尴尬的错误，使得项目上线延迟了半月之久。这里记录一下。<br><a id="more"></a></p></blockquote><h1 id="IP-端口打不开的无奈"><a href="#IP-端口打不开的无奈" class="headerlink" title="IP:端口打不开的无奈"></a>IP:端口打不开的无奈</h1><blockquote><p>项目用的是3000端口，可恨的是我ecs的3000端口怎么也打不开，各种方法都试过以后，自认度娘无用，狠心将端口名改为了3389,3389是阿里云主动暴露出来的一个端口，然而后续的问题又来了：我要再部署一个项目的时候，改用哪个端口呢？</p><h1 id="数据库中User拿不到的尴尬"><a href="#数据库中User拿不到的尴尬" class="headerlink" title="数据库中User拿不到的尴尬"></a>数据库中User拿不到的尴尬</h1><p>好不容易将端口暴力改成3389后，倒是能访问了，不过只是昙花一现，随后会报“user is defined”的问题，我最开始的思路是错了，user没拿到是绝对正确的，只是我最开始以为centos中没有浏览器session这个概念呢，还以为在ecs中的mysql不能用，只能用他的RDS呢（汗颜），以至于我用这个蹩脚的理由推延了十多日，直到昨晚才恍然大悟，明白了问题所在：“我尼玛没改mysql用户名和密码”，所以，并不是我没拿到user，而是，我其实连数据库都没连上，贼尴尬。</p><h1 id="nginx反向代理的忧伤"><a href="#nginx反向代理的忧伤" class="headerlink" title="nginx反向代理的忧伤"></a>nginx反向代理的忧伤</h1><p>mysql数据库改完密码，登录一炮子，打开公网ip：端口，测试，果然成功，为自己填上一坑。然在阿里云控制台将fzroom.xin解析到公网IP后，我就以为能访问了，真是可笑。报了无法连接。本来是知道要配服务器的，只是以为阿里云的解析会很强大呢，看来是我错了。无法连接后，只好用nginx做反向代理，然而，将我的3389端口代理到fzroom.xin后也是无法连接的尴尬。至今尚未解决此问题，所以目前只能通过公网IP(47.94.215.193)：端口号(3389)的方式进行访问，你说忧伤不忧伤。</p></blockquote><h1 id="令附："><a href="#令附：" class="headerlink" title="令附："></a>令附：</h1><blockquote><p>在写项目里写sql语句时，一定要严格区分大小写，因为我是在windows下开发的，windows比较坑的是不区分大小写(命令行也这个德行),一旦要到linux系统下部署上线时，一堆问题就出来了。(linux下严格区分大小写),所以，一定要区分大小写，严格照着数据库写。数据库设计也要符合些要求，不然后期想改的时候，一把血泪啊。(还好表不多，想想100多张表，难受)。</p></blockquote><h2 id="以上，敬安。"><a href="#以上，敬安。" class="headerlink" title="以上，敬安。"></a>以上，敬安。</h2><blockquote><p>方丈遗少杜三贱，丁酉八月初七。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;在部署自己的项目到fzroom时，犯了一个尴尬的错误，使得项目上线延迟了半月之久。这里记录一下。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="技术(mysql&amp;node)" scheme="fzysdsj.github.io/tags/%E6%8A%80%E6%9C%AF-mysql-node/"/>
+    
+  </entry>
+  
+  <entry>
     <title>servlet与router</title>
     <link href="fzysdsj.github.io/2017/09/25/servlet%E4%B8%8Erouter/"/>
     <id>fzysdsj.github.io/2017/09/25/servlet与router/</id>
     <published>2017-09-25T10:03:32.000Z</published>
-    <updated>2017-09-26T00:36:56.570Z</updated>
+    <updated>2017-09-26T01:20:10.523Z</updated>
     
     <content type="html"><![CDATA[<p>最近刚刚跟着老邹在迫不得已的情况下玩了些java,玩到servlet的时候，我突然恍然大悟，这尼玛不就是node的router嘛！<br><a id="more"></a></p><p>##比较一炮子</p><blockquote><p>首先我们可以从数据的流动上寻到一些端倪，同样是玩MVC，也必然都遵循MVC的标准。JAVA里面DAO是model层，node里面也可以写Dao，JAVA里面view层是jsp，node里面是html模板(jade,ejs),JAVA里面controller层是DaoImpl层，node就可以直接写controller，里面堆满js文件。那么servlet会写在哪里呢？自然是<em>Servlet了(addServlet,updateServlet,deleteServlet,queryServlet…….),</em>Servlet中要进行的无非是实例化impl对象，调用dao层里的增删改查方法，进而操作数据库，并将数据转发给<em>.jsp，给定好@webServlet，通过请求url，将后台转发的数据渲染到</em>.jsp上，展示给用户。<em>.jsp上的数据也会通过相同方式到达</em>Servlet。那么在node中数据是否也是这样流动的呢？必然的！一般一个node搭建的web项目，数据的流动大体会是这个样子的：首先，路由新建一个url，并在回调函数中做相关业务逻辑（这就相当于 java中的public class <em>servlet）,最后通过res.send或res.render，将数据转发给</em>.ejs。当用户请求这个url时，router.get会将router.post(url,callback)转发给对应页面的数据渲染到此页面上，并将页面展示给用户。在这个过程中，java中的servlet与node中的router起到了一样的作用，我称之为二手贩子。何为二手贩子？即数据库是卖家，router通过post，以数据库心仪的价格买来数据，并展示给<em>.ejs（是展示，也就是说并未给他使用）。当这个url被请求时，router.get(url,callback)触发，</em>.ejs请求使用数据，router.get(url,callback)将数据交给<em>.ejs交易完成。</em>.ejs拿到数据，在用户面前狐假虎威。当然在这个三方交易中，数据的流动是双向的，即*.ejs可以是卖家，也可以是买家，.jsp亦同。但router和servle的二手贩子性质不会变，他们在数据买卖中起着至关重要的作用，他们没有对数据有过任何实质性的贡献，却主宰着数据买卖的成功与否。数据世界里，也有人们意想不到的权力斗争呢。</p></blockquote>]]></content>
     
